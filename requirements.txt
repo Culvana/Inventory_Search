@@ -1,0 +1,47 @@
+# requirements.txt for Azure Functions with Cosmos DB and Google OAuth
+
+# Core Azure Functions
+azure-functions>=1.18.0
+
+# Azure Cosmos DB
+azure-cosmos>=4.5.1
+
+# Google Authentication
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.100.0  # If you need Google API services
+
+# JWT and Authentication
+PyJWT>=2.8.0
+cryptography>=41.0.0  # Required for PyJWT with certain algorithms
+
+# Password hashing
+bcrypt>=4.0.1
+
+# HTTP requests
+requests>=2.31.0
+urllib3>=2.0.0  # Often needed with requests
+
+# Additional useful packages for Azure Functions
+python-dotenv>=1.0.0  # For local environment variables
+azure-identity>=1.14.0  # For Azure authentication if needed
+azure-keyvault-secrets>=4.7.0  # If using Azure Key Vault
+
+# Date/time handling (often needed)
+python-dateutil>=2.8.2
+
+# JSON handling improvements
+orjson>=3.9.0  # Faster JSON parsing (optional)
+
+# Logging enhancements
+structlog>=23.1.0  # Better structured logging (optional)
+
+# CORS handling for HTTP functions
+flask-cors>=4.0.0  # If using Flask-like patterns
+
+# Validation
+pydantic>=2.4.0  # For request/response validation (optional but recommended)
+
+# Environment and configuration
+python-decouple>=3.8  # Alternative to python-dotenv

@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "COSMOS_ENDPOINT": "https://database-culvana.documents.azure.com:443/",
+    "COSMOS_KEY": "RSu3KnX22BzDoQ7DPiiawfelDpTyEFM4FeOC7ME9NmZ25me7KuqYmjMgjaGxPBuWYBCNXbWS8W0pACDbrN2Jww==",
+    "GOOGLE_CLIENT_ID": "260294544974-mbdb10ice1ktbridlf4h5umc98jhf251.apps.googleusercontent.com",
+    "JWT_SECRET":"UyKh9kOx3cOxyCZFfBDGrg0CNWToE7JFnKEEqAp9aOhZVa3qk6TQyy4H9SctuKXbqiSPAFCJl4R9moRRaCIdNw"
+  }
+}
